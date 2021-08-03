@@ -1,7 +1,8 @@
 ![React PowerSearch](./assets/logo.svg)
 
 # react-mondaine
-Responsive Swiss railway clock for React! [View demo here][github-page].
+
+Responsive Swiss railway clock for React! Mimics the 2 second sync time characteristic for Mondaine clocks. [View demo here][github-page].
 
 ## 💡 Usage
 
@@ -16,7 +17,7 @@ Import and mount component:
 ```jsx
 import Mondaine from "react-mondaine";
 
-<Mondaine />
+<Mondaine />;
 ```
 
 ## 💅 Customise
@@ -29,7 +30,7 @@ import MyComponent from "components/MyComponent";
 
 <Mondaine>
   <MyComponent />
-</Mondaine>
+</Mondaine>;
 ```
 
 ## 📚 Documentation
