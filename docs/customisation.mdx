@@ -1,0 +1,26 @@
+---
+name: Customisation
+route: /customisation
+---
+
+import { Playground } from "docz";
+
+import Mondaine from "../src/";
+import MyComponent from "../src/components/MyComponent";
+
+You can use your own component as a logo on the clock face!
+
+```javascript
+import Mondaine from "react-mondaine";
+import MyComponent from "components/MyComponent";
+
+<Mondaine>
+  <MyComponent />
+</Mondaine>;
+```
+
+<Playground>
+  <Mondaine>
+    <MyComponent />
+  </Mondaine>
+</Playground>

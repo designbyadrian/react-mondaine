@@ -1,0 +1,46 @@
+{
+  "name": "react-mondaine",
+  "version": "1.0.0",
+  "description": "Responsive Swiss railway clock for React",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/designbyadrian/react-mondaine/issues"
+  },
+  "homepage": "https://github.com/designbyadrian/react-mondaine#readme",
+  "devDependencies": {
+    "@types/react": "17.0.15",
+    "@types/react-dom": "17.0.9",
+    "docz": "2.3.1",
+    "get-pkg-repo": "4.1.1",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "tslint": "6.1.3",
+    "tslint-react": "5.0.0",
+    "typescript": "4.3.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "files": [
+    "/dist",
+    "package.json"
+  ],
+  "dependencies": {
+    "@vanilla-extract/css": "^1.2.1",
+    "@vanilla-extract/sprinkles": "^1.0.0",
+    "date-fns": "^2.23.0",
+    "framer-motion": "^4.1.17",
+    "gatsby-plugin-vanilla-extract": "^1.0.5",
+    "prop-types": "15.7.2"
+  }
+}
