@@ -10,7 +10,7 @@ type HandProps = {
 };
 
 const SecondHand: React.FC<HandProps> = ({ rotation = 0 }) => (
-  <g>
+  <g data-testid="second-hand">
     <motion.path
       className={secondHand}
       initial={false}

@@ -3,7 +3,7 @@ import * as React from "react";
 import { hourMark } from "../style.css";
 
 const Hours: React.FC = () => (
-  <g>
+  <g data-testid="hours">
     <rect className={hourMark} x="242" y="18" width="16" height="57" />
     <rect
       className={hourMark}

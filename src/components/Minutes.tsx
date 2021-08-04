@@ -3,7 +3,7 @@ import * as React from "react";
 import { minuteMark } from "../style.css";
 
 const Minutes: React.FC = () => (
-  <g>
+  <g data-testid="minutes">
     <rect className={minuteMark} x="247" y="18" width="6" height="16" />
     <rect
       className={minuteMark}

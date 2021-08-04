@@ -1,7 +1,20 @@
 import { useEffect, useRef } from "react";
 
-export const limitRange = (val: number, min: number, max: number) =>
-  val < min ? min : val > max ? max : val;
+export const limitRange = (val: number, min: number, max: number) => {
+  if (min > max) {
+    const mx = max;
+    max = min;
+    min = mx;
+  }
+
+  if (val < min) {
+    return min;
+  }
+  if (val > max) {
+    return max;
+  }
+  return val;
+};
 
 /* From: https://overreacted.io/making-setinterval-declarative-with-react-hooks/ */
 export const useInterval = (callback: () => void, delay: number) => {

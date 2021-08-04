@@ -10,7 +10,7 @@ type HandProps = {
 };
 
 const MinuteHand: React.FC<HandProps> = ({ rotation = 0 }) => (
-  <g>
+  <g data-testid="minute-hand">
     <motion.polygon
       className={minuteHand}
       initial={false}
